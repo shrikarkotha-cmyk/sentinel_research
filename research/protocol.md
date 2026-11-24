@@ -1,4 +1,4 @@
-# Research protocol — draft 0.1
+# Research protocol: draft 0.1
 
 ## Question
 Can hardware-backed licensing reduce unauthorized copying of a PC game's credentials while retaining offline single-player access, supported mods, and acceptable startup overhead?
