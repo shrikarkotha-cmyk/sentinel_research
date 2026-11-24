@@ -1,4 +1,4 @@
-# Research Journal — Entry 001
+# Research Journal: Entry 001
 
 **Date:** November 23, 2026  
 **Topic:** Motivation and Learning Objectives
