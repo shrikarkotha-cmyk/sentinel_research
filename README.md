@@ -8,6 +8,10 @@ Commercial game protection must balance publishers' interest in preventing unaut
 
 The project is an early-stage research prototype, not a commercial DRM product or a demonstrated replacement for Denuvo.
 
+## Role of Starfall Trail
+
+Starfall Trail is an original, internally developed research testbench, not a planned commercial game release. Sentinel is the primary research and engineering project. Game features, graphics, animation, and asset complexity are added only when they provide representative, reproducible workloads for authorization, integrity, compatibility, scalability, or performance experiments. Prioritize measurable CPU, GPU, memory, and asset-loading workloads over entertainment value or distribution. Maintain equivalent protected and developer-authorized unprotected benchmark configurations. There is no requirement to publish the game commercially.
+
 ## Research question
 
 Can a hybrid game licensing architecture resist unauthorized credential copying while preserving offline single-player gameplay, accommodating hardware upgrades, and minimizing disruption for legitimate players?
