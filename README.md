@@ -25,6 +25,12 @@ flowchart TD
 
 Ownership, device identity, and local authorization are separate responsibilities. The prototype supports portable software credentials and an earlier Windows TPM-backed implementation. Real storefront integration is a future objective; the current storefront is simulated.
 
+## Sentinel Adaptive (proposed)
+
+A developer-side, AI-assisted maintenance pipeline would investigate reproducible defects using authorized test evidence, propose source corrections, validate them in isolation, and require human approval before signed releases. No AI model runs on the player's PC. Offline cracks cannot be universally detected or retroactively repaired. The research goal is to measure repair time, correctness, cost and regression risk, not to claim autonomous or uncrackable protection.
+
+See [Sentinel Adaptive architecture](docs/sentinel-adaptive.md) and the [comparative DRM benchmark plan](benchmarks/README.md). Both are research proposals, not demonstrated features or performance gains.
+
 ## Development progress
 
 | Version | Milestone | Evidence status |
@@ -72,7 +78,8 @@ These are design objectives, not guarantees demonstrated across commercial games
 | [V0.7 storefront and recovery experiment](experiments/v0.7-storefront-recovery.md) | Ownership and recovery findings |
 | [V0.8 graphical game experiment](experiments/v0.8-graphical-game-pilot.md) | Gameplay workload and authorization findings |
 | [V0.8.2 Windows offline pilot](experiments/v0.8.2-windows-offline-pilot.md) | Physical PC activation and offline relaunch |
-| [Benchmark plan](benchmarks/README.md) | Proposed quantitative evaluation |
+| [Sentinel Adaptive architecture](docs/sentinel-adaptive.md) | Proposed detection, diagnosis, reviewed correction and evaluation |
+| [Comparative benchmark plan](benchmarks/README.md) | Matched DRM comparisons, performance and scalability methodology |
 | [Research journal](journal/README.md) | Learning and reflections |
 | [Research integrity and contributions](research/integrity.md) | Authorship, assistance and evidence practices |
 
@@ -81,9 +88,9 @@ These are design objectives, not guarantees demonstrated across commercial games
 1. Prototype automatic first-launch authorization with a simulated storefront and measure player-facing steps, startup latency, failure recovery, and offline relaunch. Real Steamworks integration requires authorized access.
 2. Verify a reproducible standalone Windows build and authorized first launch on a clean installation.
 3. Independently reproduce the existing experiments, including physical-device and recovery tests.
-4. Compare protected and equivalent unprotected workloads using controlled measurements.
+4. Compare Sentinel-protected and equivalent unprotected workloads, then matched Steam DRM, Denuvo and other authorized configurations when available.
 5. Evaluate credential portability and usability tradeoffs.
-6. Develop a reviewed, developer-side maintenance process driven by regression tests.
+6. Prototype Sentinel Adaptive and compare AI-assisted maintenance against conventional diagnosis using controlled defect cases.
 
 ## Feedback and research integrity
 
