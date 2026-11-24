@@ -1,6 +1,6 @@
 # Sentinel Foundation V1
 
-Status: proposed development plan, November 23, 2026. V0.5 remains the pilot baseline.
+Status: proposed development plan, originally November 23, 2026; updated November 24, 2026. V0.5 remains the initial pilot baseline. Later progress is tracked in the [research overview](../README.md).
 
 ## Design decisions
 
@@ -20,13 +20,17 @@ Status: proposed development plan, November 23, 2026. V0.5 remains the pilot bas
 | V1.1 authorization | Robust parsing, signature validation and documented error handling | Valid, altered, malformed and wrong-identity fixtures behave as expected |
 | V1.2 reliability | Offline and recovery test matrix; supported mod boundaries | Activated offline launches and permitted mods pass; failures handled clearly |
 | V1.3 developer toolkit | Package an owned test game with an explicit signed manifest and mod policy | A clean machine can use documented steps without exposing signing keys |
-| V1.4 performance | Same-build comparison and graphical demo | Raw samples and limitations published; no unexplained performance regression |
-| V1.5 maintenance | Developer-side regression pipeline and reviewed update process | Test failure can be reproduced, fixed and reviewed; rejected update leaves installed game usable |
+| V1.4 performance | Same-build comparison and graphical demo | Raw samples and limitations published; matched authorized DRM comparison when available |
+| V1.5 maintenance | Developer-side regression pipeline and reviewed update process | Controlled comparison of diagnosis time, validated repair rate and regression risk; rejected update leaves installed game usable |
 | V1.6 portability | Evaluate other OS providers and compatibility | Results documented per platform; unsupported platforms have clear behavior |
 
 These are plans, not implemented features. No claim of stronger anti-tamper than Denuvo.
 
-## First coding session
+## Next research phase
+
+The [Sentinel Adaptive proposal](sentinel-adaptive.md) defines where and when analysis runs, evidence requirements, human review, and evaluation gates. The [comparative benchmark protocol](../benchmarks/README.md) defines controlled performance tests and isolated activation scalability experiments. Both remain planned. Preserve the storefront-first player experience and offline authorization demonstrated in the V0.8.2 pilot.
+
+## First coding session (historical plan)
 
 Preserve the original working V0.5 directory. Work in a separate local copy or private source repository. Audit all files before sharing; never upload signing private keys, license files, activation codes, TPM references, databases or raw logs. The current public repository contains research, not the C++ implementation.
 
