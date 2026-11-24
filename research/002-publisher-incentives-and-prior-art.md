@@ -1,4 +1,4 @@
-# Research 002 — Publisher incentives, alternatives and prior art
+# Research 002: Publisher incentives, alternatives and prior art
 
 Date: 2026-11-23. AI-assisted desk research; preliminary review, not original experimental findings.
 
