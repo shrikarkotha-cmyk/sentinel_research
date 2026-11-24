@@ -40,6 +40,7 @@ See [Sentinel Adaptive architecture](docs/sentinel-adaptive.md) and the [compara
 | V0.7 | Simulated storefront, enrollment and recovery | [35 expected integration outcomes](experiments/v0.7-storefront-recovery.md) |
 | V0.8 | Original graphical exploration game with inventory, crafting and saves | [45 expected integration outcomes](experiments/v0.8-graphical-game-pilot.md) |
 | V0.8.1–0.8.2 | Launcher, standalone packaging preparation and Windows build automation | Windows x64 compilation, 2/2 native tests, launcher packaging, and researcher-reported activation and offline relaunch on a physical Windows PC |
+| V0.9 | Textured and animated 100 MB game workload, simulated one-click authorization | [51 expected integration and GUI outcomes](experiments/v0.9-textured-workload-and-storefront.md); Windows verification pending |
 
 Counts represent outcomes matching expectations, including documented weaknesses, not the number of attacks prevented.
 
@@ -78,6 +79,7 @@ These are design objectives, not guarantees demonstrated across commercial games
 | [V0.7 storefront and recovery experiment](experiments/v0.7-storefront-recovery.md) | Ownership and recovery findings |
 | [V0.8 graphical game experiment](experiments/v0.8-graphical-game-pilot.md) | Gameplay workload and authorization findings |
 | [V0.8.2 Windows offline pilot](experiments/v0.8.2-windows-offline-pilot.md) | Physical PC activation and offline relaunch |
+| [V0.9 textured workload and storefront pilot](experiments/v0.9-textured-workload-and-storefront.md) | Larger asset workload and automatic authorization |
 | [Sentinel Adaptive architecture](docs/sentinel-adaptive.md) | Proposed detection, diagnosis, reviewed correction and evaluation |
 | [Comparative benchmark plan](benchmarks/README.md) | Matched DRM comparisons, performance and scalability methodology |
 | [Research journal](journal/README.md) | Learning and reflections |
