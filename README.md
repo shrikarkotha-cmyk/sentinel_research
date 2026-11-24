@@ -48,6 +48,8 @@ Counts represent outcomes matching expectations, including documented weaknesses
 
 ## Design principles
 
+- Storefront-first experience: legitimate players download and press Play. Initial authorization should occur automatically using the existing storefront entitlement, with clear actionable errors when needed.
+- No separate mandatory Sentinel launcher, account, manual activation code, developer tools, or player-hosted server. The V0.8.2 manual issuer and launcher are test infrastructure only.
 - Offline gameplay after initial authorization, while required local credentials remain valid.
 - Straightforward recovery for legitimate hardware changes.
 - Supported community modifications.
@@ -76,11 +78,12 @@ These are design objectives, not guarantees demonstrated across commercial games
 
 ## Current priorities
 
-1. Verify a reproducible standalone Windows build and authorized first launch on a clean installation.
-2. Independently reproduce the existing experiments, including physical-device and recovery tests.
-3. Compare protected and equivalent unprotected workloads using controlled measurements.
-4. Evaluate credential portability and usability tradeoffs.
-5. Develop a reviewed, developer-side maintenance process driven by regression tests.
+1. Prototype automatic first-launch authorization with a simulated storefront and measure player-facing steps, startup latency, failure recovery, and offline relaunch. Real Steamworks integration requires authorized access.
+2. Verify a reproducible standalone Windows build and authorized first launch on a clean installation.
+3. Independently reproduce the existing experiments, including physical-device and recovery tests.
+4. Compare protected and equivalent unprotected workloads using controlled measurements.
+5. Evaluate credential portability and usability tradeoffs.
+6. Develop a reviewed, developer-side maintenance process driven by regression tests.
 
 ## Feedback and research integrity
 
