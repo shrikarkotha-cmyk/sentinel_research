@@ -19,6 +19,4 @@ Even if Sentinel does not become a commercially successful product, I want to un
 
 My goal is to explore whether game security and a positive player experience can coexist without significant compromises.
 
----
 
-*Authorship note: AI-assisted editing of the researcher's original answers, approved by the researcher for publication. Personal experience is motivation for the study, not experimental evidence.*
