@@ -1,6 +1,6 @@
 # Experiment register
 
-## Preliminary pilot — Sentinel V0.5
+## Preliminary pilot: Sentinel V0.5
 These are observations from a guided local prototype session, not an independent replication or a formal benchmark. No raw screenshots or logs are published here.
 
 | Test | Preliminary outcome | Evidence limitation |
@@ -14,7 +14,7 @@ These are observations from a guided local prototype session, not an independent
 | License used with a distinct TPM key identity | Rejected | Same physical Windows PC |
 | Restore original identity | Successful | Single pilot |
 | Supported mod loading | Successful | Simple test content |
-| License serialization | Initial failure; launch worked after newline normalization | Regression test needed |
+| License serialization | Initial failure; launch later succeeded; cause not established | Regression test needed |
 | Different physical Windows PC | Not tested | Additional hardware required |
 | Performance overhead | Not measured | Controlled benchmarks required |
 | Hypervisor resistance | Not tested | No claims of resistance |
