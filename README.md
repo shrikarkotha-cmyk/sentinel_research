@@ -53,6 +53,7 @@ See [Sentinel Adaptive architecture](docs/sentinel-adaptive.md) and the [compara
 | V0.15 candidate | Lab signing-key lifecycle and packaging validation | [11 Vault checks, 78 integration outcomes](experiments/v0.15-vault-foundation.md); Windows and production Vault pending |
 | V0.16 candidate | Device-bound recovery and provider diagnostic | [16 recovery checks, 81 integration outcomes](experiments/v0.16-cross-platform-recovery.md); native platform validation pending |
 | V0.17.2 audit candidate | Audited licensing, recovery, packaging and Windows compatibility | [Audit intake and evidence limitations](experiments/v0.17.2-audit-import.md); archive verified, CI pending |
+| V0.18 candidate | Grouped durable commits, key lifecycle and Adaptive review gate | [Verified archive and reported qualification](experiments/v0.18-audit-intake.md); independent CI pending |
 
 Counts represent outcomes matching expectations, including documented weaknesses, not the number of attacks prevented.
 
@@ -102,6 +103,7 @@ These are design objectives, not guarantees demonstrated across commercial games
 | [V0.15 Vault foundation](experiments/v0.15-vault-foundation.md) | Signing-key lifecycle, separation and build validation |
 | [V0.16 cross-platform recovery](experiments/v0.16-cross-platform-recovery.md) | Portable credential architecture and recovery policy |
 | [V0.17.2 audit intake](experiments/v0.17.2-audit-import.md) | Verified source hashes and reported Windows regressions |
+| [V0.18 audit intake](experiments/v0.18-audit-intake.md) | Scalability, release trust and Adaptive evidence |
 | [Sentinel Adaptive architecture](docs/sentinel-adaptive.md) | Proposed detection, diagnosis, reviewed correction and evaluation |
 | [Comparative benchmark plan](benchmarks/README.md) | Matched DRM comparisons, performance and scalability methodology |
 | [Research journal](journal/README.md) | Learning and reflections |
