@@ -47,6 +47,7 @@ See [Sentinel Adaptive architecture](docs/sentinel-adaptive.md) and the [compara
 | V0.9 | Textured and animated 100 MB game workload, simulated one-click authorization | [51 expected integration and GUI outcomes](experiments/v0.9-textured-workload-and-storefront.md); Windows verification pending |
 | V0.10 | Simplified launch and separate 3D OpenGL workload | [53 expected portable integration outcomes](experiments/v0.10-launch-and-opengl.md); actual Windows GPU testing pending |
 | V0.11 | Synthetic purchases, refunds and isolated installation profiles | [63 expected integration outcomes](experiments/v0.11-synthetic-storefront.md); Windows GUI verification pending |
+| V0.12 | Enrollment proof of possession and strict request validation | [75 expected integration and GUI outcomes](experiments/v0.12-enrollment-hardening.md); Windows verification pending |
 
 Counts represent outcomes matching expectations, including documented weaknesses, not the number of attacks prevented.
 
@@ -88,6 +89,7 @@ These are design objectives, not guarantees demonstrated across commercial games
 | [V0.9 textured workload and storefront pilot](experiments/v0.9-textured-workload-and-storefront.md) | Larger asset workload and automatic authorization |
 | [V0.10 launch and OpenGL pilot](experiments/v0.10-launch-and-opengl.md) | Simplified launch and adjustable 3D benchmark |
 | [V0.11 synthetic storefront pilot](experiments/v0.11-synthetic-storefront.md) | Zero-cost purchase and refund experiments |
+| [V0.12 enrollment hardening](experiments/v0.12-enrollment-hardening.md) | Proof of possession and authorization regressions |
 | [Sentinel Adaptive architecture](docs/sentinel-adaptive.md) | Proposed detection, diagnosis, reviewed correction and evaluation |
 | [Comparative benchmark plan](benchmarks/README.md) | Matched DRM comparisons, performance and scalability methodology |
 | [Research journal](journal/README.md) | Learning and reflections |
