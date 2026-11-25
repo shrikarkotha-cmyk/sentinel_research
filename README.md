@@ -54,6 +54,7 @@ See [Sentinel Adaptive architecture](docs/sentinel-adaptive.md) and the [compara
 | V0.16 candidate | Device-bound recovery and provider diagnostic | [16 recovery checks, 81 integration outcomes](experiments/v0.16-cross-platform-recovery.md); native platform validation pending |
 | V0.17.2 audit candidate | Audited licensing, recovery, packaging and Windows compatibility | [Audit intake and evidence limitations](experiments/v0.17.2-audit-import.md); archive verified, CI pending |
 | V0.18 candidate | Grouped durable commits, key lifecycle and Adaptive review gate | [Verified archive and reported qualification](experiments/v0.18-audit-intake.md); independent CI pending |
+| V0.18.1 Forge | Installed SDK, C/C++ and managed consumers, desktop build matrix | [Windows integration study and component status](experiments/v0.18.1-forge.md) |
 
 Counts represent outcomes matching expectations, including documented weaknesses, not the number of attacks prevented.
 
