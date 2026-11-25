@@ -50,6 +50,7 @@ See [Sentinel Adaptive architecture](docs/sentinel-adaptive.md) and the [compara
 | V0.12 | Enrollment proof of possession and strict request validation | [75 expected integration and GUI outcomes](experiments/v0.12-enrollment-hardening.md); Windows verification pending |
 | V0.13 candidate | Optional device-bound enrollment grant | Nine targeted checks; storefront integration and full regression pending. [Separate V0.12 50,000-account workload](experiments/v0.12-50k-activation-pilot.md) |
 | V0.14 candidate | Optimized activation service and expanded integrity tests | [Matched 50,000-arrival tests](experiments/v0.14-burst-and-integrity.md); 78 expected integration outcomes, Windows verification pending |
+| V0.15 candidate | Lab signing-key lifecycle and packaging validation | [11 Vault checks, 78 integration outcomes](experiments/v0.15-vault-foundation.md); Windows and production Vault pending |
 
 Counts represent outcomes matching expectations, including documented weaknesses, not the number of attacks prevented.
 
@@ -96,6 +97,7 @@ These are design objectives, not guarantees demonstrated across commercial games
 | [V0.12 enrollment hardening](experiments/v0.12-enrollment-hardening.md) | Proof of possession and authorization regressions |
 | [50,000-account activation pilot and Enhanced candidate](experiments/v0.12-50k-activation-pilot.md) | Authorization accuracy, throughput and tail latency; optional device-bound grant pilot |
 | [V0.14 burst and integrity experiment](experiments/v0.14-burst-and-integrity.md) | Matched throughput, queue delay and intact-verifier integrity checks |
+| [V0.15 Vault foundation](experiments/v0.15-vault-foundation.md) | Signing-key lifecycle, separation and build validation |
 | [Sentinel Adaptive architecture](docs/sentinel-adaptive.md) | Proposed detection, diagnosis, reviewed correction and evaluation |
 | [Comparative benchmark plan](benchmarks/README.md) | Matched DRM comparisons, performance and scalability methodology |
 | [Research journal](journal/README.md) | Learning and reflections |
