@@ -23,4 +23,4 @@ Volckmann, W. M., II (2025). [Revenue effects of Denuvo digital rights managemen
 - Which supported mod types are compatible?
 - What remains unverified during offline operation?
 
-AI assistance: initial source discovery and summaries were AI-assisted. The researcher should read each source and record their own interpretation before relying on it in a paper.
+The researcher should read each source and record their own interpretation before relying on it in a paper.

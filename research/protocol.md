@@ -23,4 +23,4 @@ Use only the original Starfall Trail test game and synthetic accounts/licenses. 
 Local authorization is not proof of executable integrity under adversarial control. A TPM key's reported provider is not remote attestation. An offline client cannot receive immediate revocations. A single device and synthetic game limit generalizability.
 
 ## Evidence and authorship
-Record which steps were performed by the student, which code or prose was AI-assisted, and which outputs were directly observed. Drafts are not results. Never publish private keys, identifiers, activation codes, raw logs containing secrets, or personal information.
+Record personal contributions, tool assistance, and directly observed outputs; follow the [project-wide disclosure](../README.md#research-contributions-and-ai-disclosure). Drafts are not results. Never publish private keys, identifiers, activation codes, raw logs containing secrets, or personal information.

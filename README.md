@@ -123,4 +123,10 @@ These are design objectives, not guarantees demonstrated across commercial games
 
 Technical feedback on licensing design, experimental methodology, player experience and performance measurement is welcome through repository issues.
 
-Testing is restricted to original owned software and synthetic credentials. Prototype development and documentation have involved AI assistance. The researcher records personal contributions and should independently reproduce and interpret results before academic submission. Engine source and private credentials are not published here. No claim of commercial anti-piracy effectiveness, independent replication, or superiority over competing products is made.
+Testing is restricted to original owned software and synthetic credentials. Engine source and private credentials are not published here. No claim of commercial anti-piracy effectiveness, independent replication, or superiority over competing products is made.
+
+## Research contributions and AI disclosure
+
+Sentinel is a student-led learning and research project. The project owner developed the original motivation and goals, made design and prioritization decisions, performed guided physical-device tests, and reported observed results. AI tools have contributed substantially to prototype implementation, debugging, automated tests, benchmark tooling and analysis, literature discovery and summaries, research planning, documentation, editing, and repository and workflow maintenance. This disclosure applies to the entire repository, including its historical experiment reports, preliminary desk research and literature review. The project does not claim that all code, experiments or writing were independently produced by the student.
+
+Reported automated results and owner-observed physical tests are distinguished in the experiment records; neither constitutes independent third-party replication. The researcher should directly review original sources, understand the implementation, independently reproduce and interpret results, maintain a dated contribution record, and comply with the disclosure and eligibility requirements of any school, competition or publication. Findings, failures, limitations and source citations remain part of the individual research reports.
