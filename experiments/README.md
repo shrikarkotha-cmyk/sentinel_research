@@ -29,6 +29,6 @@ These are observations from a guided local prototype session, not an independent
 - Evidence reference (sanitized):
 - Confounders and failures:
 - Interpretation and next step:
-- Student contribution / AI assistance:
+- Researcher contribution / tools used:
 
 Do not fill in observations before running a test. Keep raw logs local until reviewed and sanitized.

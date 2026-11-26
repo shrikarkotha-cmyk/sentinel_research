@@ -6,7 +6,7 @@ The researcher should write entries in their own words after each session. Do no
 - Date and time spent:
 - What I wanted to learn:
 - What I personally did:
-- What AI or other sources helped with:
+- Tools and sources used:
 - What worked or failed:
 - Why I think it happened:
 - What I can explain independently:

@@ -1,6 +1,6 @@
 # Research 002: Publisher incentives, alternatives and prior art
 
-Date: 2026-11-23. AI-assisted desk research; preliminary review, not original experimental findings.
+Date: 2026-11-23. Preliminary desk research, not original experimental findings.
 
 ## Research questions
 Why do publishers buy anti-tamper products despite usability concerns? What alternatives exist? Which proposed Sentinel features are already described publicly?
